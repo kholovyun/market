@@ -1,0 +1,98 @@
+.product_page_con{
+    padding-top: 10em;
+}
+.product_page_info{
+    display: flex;
+}
+.product_page_img{
+    width: 70%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.product_page_main_info{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.size_btns{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.size_btn{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 6px 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+}
+.img_icon{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.delivery_info_block{
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+.delivery_info_block > div{
+    display: flex;
+    padding: 1em;
+    gap: 2em;
+    color: #000;    
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.sub_text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 1em;
+}
+.delivery_info_block > div:first-child {
+    border-bottom: 1px solid black;
+    padding-bottom: 1.2em;
+    margin-bottom: 1.2em;
+}
+.quan_controlls{
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 1.4em;
+    background-color: transparent;
+    border: 0.5px solid rgba(0, 0, 0, 0.50);
+}
+.quan_controlls:last-child{
+    background: var(--secondary-2, #DB4444);
+    color: white;
+}
+.quan_input{
+    width: 5em;
+    height: 1.5em;
+    height: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.50);
+    text-align: center;
+    user-select: none;
+}
+.quan_set_block{
+    display: flex;
+    width: 27%;
+    justify-content: space-between;
+}
+.quan_set_block > label {
+    display: flex;
+    border-collapse: collapse;
+}

@@ -1,0 +1,85 @@
+.sing_up_con{
+    display: flex;
+    padding: 2em;
+    gap: 3em;
+    justify-content: center;
+    position: relative;
+    padding-top: 5em;
+}
+.sing_up_img{
+    margin-top: 5em;
+    width: 45%;
+    height: 700px;
+    border-radius: 0px 4px 4px 0px;
+    background: #CBE4E8;
+    background-image: url('../../../public/singUpImg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sing_up_form{
+    padding: 10%;
+}
+.reg_form_title{
+    color: var(--text-2, #000);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1.44px;
+}
+.reg_form_sub {
+    color: var(--text-2, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.reg_form_form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-top: 2em;
+    font-size: 22px;
+}
+.singUp_inputs{
+    padding: 1em;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.register_btn{
+    border-radius: 4px;
+    background: var(--button-2, #DB4444);
+    border: none;
+    display: flex;
+    padding: 16px 122px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--text, #FAFAFA);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 2em;
+    cursor: pointer;
+}
+.logIn_switch_block{
+    display: flex;
+    gap: 2em;
+    margin-top: 4em;
+    justify-content: center;
+}
+.logIn_switch_block > p {
+    color: var(--text-2, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+}
